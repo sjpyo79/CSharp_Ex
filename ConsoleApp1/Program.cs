@@ -27,7 +27,8 @@ namespace ConsoleApp1
             Console.Write("Yes\n");
             string noes = @"c:\Docs\dfef";
             Console.WriteLine(noes);
-            
+            int x = 10;
+
             int x2 = x + 4 ;
             Console.WriteLine(x2);
 
@@ -38,9 +39,12 @@ namespace ConsoleApp1
             Console.WriteLine(a == b);
             Console.WriteLine("b =" + b);
 
-            int x = 10;
             string c = b + '!' + "" + x;
             Console.WriteLine("c = " + c);
+
+            string myinf;
+            myinf = string.Format("my h {0}, my w{1}", 165, 59);
+            Console.WriteLine(myinf);
         }
     }
 }
