@@ -23,6 +23,8 @@ namespace ConsoleApp1
             Console.Write("Nick name char?");
             char 별칭 = char.Parse(Console.ReadLine());
             Console.WriteLine(별칭);
+
+            Console.Write("Yes");
         }
     }
 }
