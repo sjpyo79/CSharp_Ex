@@ -45,6 +45,13 @@ namespace ConsoleApp1
             string myinf;
             myinf = string.Format("my h {0}, my w{1}", 165, 59);
             Console.WriteLine(myinf);
+
+            int d1 = 11;
+            double d2 = 1.234;
+            Console.WriteLine(d1.ToString() +", "+ d2.ToString());
+
+            Console.WriteLine($"d1 = {d1}, d2 = {d2}");
+
         }
     }
 }
