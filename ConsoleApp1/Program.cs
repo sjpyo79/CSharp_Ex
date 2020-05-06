@@ -27,6 +27,9 @@ namespace ConsoleApp1
             Console.Write("Yes\n");
             string noes = @"c:\Docs\dfef";
             Console.WriteLine(noes);
+            
+            int x2 = x + 4 ;
+            Console.WriteLine(x2);
 
             string a = "hello";
             string b = "h";
